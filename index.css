@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+#main-container {
+  background-color: #6943ff;
+  width: 550px;
+  height: 280px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#quantity {
+  background-color: #6943ff;
+  width: 117px;
+  height: 87px;
+  text-align: center;
+  -moz-appearance: textfield;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 58px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#quantity::-webkit-outer-spin-button,
+#quantity::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Para Chrome, Safari y Edge */
+  margin: 0;
+}
+
+#quantity,
+#convert-button {
+  display: block;
+  margin: 10px auto; /* Añade un poco de espacio y lo centra */
+}
+
+#length {
+  width: 500px;
+  height: 108px;
+  background-color: red;
+  color: #ffffff;
+  margin-top: 30px;
+}
