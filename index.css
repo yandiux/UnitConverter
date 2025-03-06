@@ -5,7 +5,7 @@ body {
 #main-container {
   background-color: #6943ff;
   width: 550px;
-  height: 280px;
+  height: 285px;
   color: #ffffff;
   text-align: center;
 }
@@ -20,6 +20,8 @@ body {
   font-weight: bolder;
   font-size: 58px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: solid #ffffff 1px;
+  border-radius: 5px;
 }
 
 #quantity::-webkit-outer-spin-button,
@@ -34,10 +36,53 @@ body {
   margin: 10px auto; /* Añade un poco de espacio y lo centra */
 }
 
-#length {
+#length,
+#volume,
+#mass {
   width: 500px;
   height: 108px;
-  background-color: red;
+
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-family: inter;
+  text-align: center;
+  margin: 10px auto; /* Center the divs inside #conversions */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #5a537b;
+}
+
+#mass {
+  margin-bottom: 30px;
+}
+
+#conversions {
+  width: 550px;
+
+  background-color: #f4f4f4;
+
+  text-align: center;
+  padding-top: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 729px;
+}
+
+#conver-btn {
+  width: 117px;
+  height: 42px;
   color: #ffffff;
-  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  color: black;
 }
